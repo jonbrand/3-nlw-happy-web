@@ -57,7 +57,10 @@
     "react/jsx-first-prop-new-line": [
       1,
       "multiline"
-    ]
+    ],
+    "jsx-a11y/label-has-associated-control": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/button-has-type": "off"
   },
   "settings": {
     "import/resolver": {
