@@ -3,46 +3,6 @@
   min-height: 100vh;
 }
 
-#page-orphanage aside {
-  position: fixed;
-  height: 100%;
-  padding: 32px 24px;
-  background: linear-gradient(329.54deg,#5b21c7 0%, #a34283 100%);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#page-orphanage aside img {
-  width: 48px;
-}
-
-#page-orphanage aside footer a,
-#page-orphanage aside footer button {
-  width: 48px;
-  height: 48px;
-
-  border: 0;
-
-  background: #c43dec;
-  border-radius: 16px;
-
-  cursor: pointer;
-
-  transition: background-color 0.2s;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#page-orphanage aside footer a:hover,
-#page-orphanage aside footer button:hover {
-  background: #c598d3;
-}
-
 #page-orphanage main {
   flex: 1;
 }
