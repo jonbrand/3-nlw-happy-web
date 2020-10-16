@@ -48,7 +48,7 @@
         "tsx": "never"
       }
     ],
-    "prettier/prettier": "error",
+    "prettier/prettier": "off",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": [
       "error"
@@ -60,7 +60,9 @@
     ],
     "jsx-a11y/label-has-associated-control": "off",
     "react/jsx-one-expression-per-line": "off",
-    "react/button-has-type": "off"
+    "react/button-has-type": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "react/jsx-indent": "off"
   },
   "settings": {
     "import/resolver": {
